@@ -1,0 +1,839 @@
+
+
+<div class="l noclose js-modal-size" data-name="">
+        <div class="controls">
+                <div class="close modal-close i-remove"></div>
+                        
+        </div>
+    <div class="frame">
+        
+
+<div id="marketData">
+        <div class="header cfix">
+            
+            <div class="h l m0 mbxs cMag2 p0">Juan D&#225;vila</div>
+            <div class="gRow">
+                <div class="gCol5">
+                    <div class="h s cGry2">domingo, febrero 04, 2024</div>
+                    <div class="t xs mtxxs">
+                        <span class="ibk">Cine Capitol (Cine Capitol Gran V&#237;a),</span> <span class="ibk">Madrid,</span> <span class="ibk">Espa&#241;a</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="tab">
+            <li class="act">
+                <a href="#tablistings">Listados</a>
+            </li>
+            <li>
+                <a href="#tabtransactions">Ventas</a>
+            </li>
+        </ul>
+        <div class="tile pxs">
+            <div id="tablistings" class="tabcontainer rel">
+
+<div class="absl w60" style="top: -50px; right: 0;">
+    <table class="vmid fltr">
+        <tr>
+            <td>
+                <div class="t s rel nowrap" style="top: 2px; z-index: 1;">Filter By:</div>
+            </td>
+            <td class="pls">
+                <select class="s" id="mDataSectionFilter" name="Section"><option value="">Todas las secciones</option>
+</select>
+            </td>
+            <td class="pls">
+                <select class="s" id="mDataTicketClassFilter" name="TicketClass"><option value="">Todas las areas de el estadio</option>
+</select>
+            </td>
+            <td class="pls">
+                <select class="s" id="mDataQuantityFilter" name="Quantity"><option value="">All quantities</option>
+<option>1</option>
+<option>2</option>
+<option>4</option>
+</select>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="marketListingsGridHeaders" class="grid ptxxs">
+    <table class="w100 bdr0 fixed">
+        <thead>
+            <tr class="t xxs cGry4 caps">
+                <th></th>
+                <th class="txtl  w10">
+                    <div class="pls">Seccion</div>
+                </th>
+                <th class="txtc w10">
+                    <span>Fila</span>
+                </th>
+                <th class="txtc w10">
+                    <span>Cantidad</span>
+                </th>
+                <th class="txtc w15">
+                    <span data-sortby="WebsitePriceVal" class="sorta">Precio <i class="i-sorta"></i><i class="i-sortd"></i></span>
+                </th>
+                <th class="txtc w15">
+                    <span>Ingresos</span>
+                </th>
+                <th class="txtl w25">
+                    <div class="ins">Venue Area</div>
+                </th>
+                <th class="txtl w30">
+                    <div class="ins">Información sobre la entrada obligatoria</div>
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div id="marketListingsGrid" class="grid scroll bdrt bdrb" style="max-height: 500px;">
+    <table class="w100 bdr0 bGry9 fixed">
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Asiento Reservado
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                c9
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €45.00
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Sin especificar
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Club
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                c6
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €45.00
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Club
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Club
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                C5
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €69.00
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Club
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Patio De Butacas
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                4
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                4
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €85.40
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Patio de Butacas
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Patio De Butacas
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                6
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €85.45
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Patio de Butacas
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Patio De Butacas
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €118.98
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Patio de Butacas
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Club
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                c8
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €150.00
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Club
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    <tr data-id="" class="">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                Asiento Reservado
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                4
+            </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="WebsitePriceVal">
+                    <span class="t xs rel nowrap pxs">
+                        €422.50
+                    </span>
+        </td>
+        <td class="txtc w15 " data-edit-field="ProceedsVal">
+            
+                    <span class="t xs rel nowrap pxs">
+                        
+                    </span>
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                Sin especificar
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+            </div>
+        </td>
+    </tr>
+    </table>
+	
+    <script class="template" data-id="default" type="text/x-jquery-tmpl">
+    <tr data-id="${Id}" class="{{if IsOwned}}owned{{else}}{{/if}}{{if IsCurrentListing}} current{{else}}{{/if}}">
+        <td>&nbsp;</td>
+        <td class="txtl w10">
+            <div class="t xs uus pls">
+                ${Section}
+            </div>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                ${Row}
+            </span>
+        </td>
+        <td class="txtc w10">
+            <span class="t xs">
+                ${Quantity}
+            </span>
+        </td>
+        <td class="txtc w15 {{if CanEdit}}editable{{else}}{{/if}}" data-edit-field="WebsitePriceVal">
+{{if OriginalCurrencyCodeIsDifferentAndIsOwned}}                    <i class="js-tooltip" title="Apuntado originariamente en ${OriginalCurrencyCode}">
+                        <span class="t xs rel nowrap pxs">
+                            ${WebsitePrice}
+{{if CanEdit}}                                <i class="i-pencil"></i>
+{{/if}}                        </span>
+                    </i>
+{{else}}
+                    <span class="t xs rel nowrap pxs">
+                        ${WebsitePrice}
+{{if CanEdit}}                            <i class="i-pencil"></i>
+{{/if}}                    </span>
+{{/if}}
+        </td>
+        <td class="txtc w15 {{if CanEdit}}editable{{else}}{{/if}}" data-edit-field="ProceedsVal">
+            
+{{if OriginalCurrencyCodeIsDifferentAndIsOwned}}                    <i class="js-tooltip" title="Apuntado originariamente en ${OriginalCurrencyCode}">
+                        <span class="t xs rel nowrap pxs">
+                            ${Proceeds}
+{{if CanEdit}}                                <i class="i-pencil"></i>
+{{/if}}                        </span>
+                    </i>
+{{else}}
+                    <span class="t xs rel nowrap pxs">
+                        ${Proceeds}
+{{if CanEdit}}                            <i class="i-pencil"></i>
+{{/if}}                    </span>
+{{/if}}
+        </td>
+        <td class="txtl w25">
+            <div class="t xs ins">
+                ${TicketClass}
+            </div>
+        </td>
+        <td class="txtl w30">
+            <div class="t xs ins">
+{{each Notes}}
+                    <li>
+${this}                    </li>
+{{/each}}
+            </div>
+        </td>
+    </tr>
+
+    </script>
+</div>
+
+<div class="footer">
+    <div class="ptl pbs">
+        <table>
+            <tr>
+               
+                <td class="owned bdr" style="width: 15px"></td>
+                <td class="plxs t xs">Mis Anuncios de Venta</td>
+              
+            </tr>
+        </table>
+    </div>
+</div>
+            </div>
+            <div id="tabtransactions" class="tabcontainer rel" style="display: none;">
+
+<div class="absl w60 txtr" style="top: -43px; right: 0;">
+    <input type="checkbox" id="hideMyTransactions"/>
+    <label for="hideMyTransactions" class="t xs cGry3">Ocultar mis ventas</label>
+</div>
+
+<div id="marketTransactionsGridHeaders" class="grid ptxxs">
+    <table class="w100 bdr0 fixed">
+        <thead>
+            <tr class="t xxs cGry4 caps">
+                <th>&nbsp;</th>
+                <th class="txtl">
+                    <div class="pls">Seccion</div>
+                </th>
+                <th class="txtc w20">
+                    <span>Fila</span>
+                </th>
+                <th class="txtc w20">
+                    <span>Asientos</span>
+                </th>
+                <th class="txtc w20">
+                    <span>Cantidad</span>
+                </th>
+                <th class="txtc w20">
+                    <span>Precio</span>
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<div id="marketTransactionsGrid" class="grid scroll bdrt bdrb" style="max-height: 500px;">
+    <table class="w100 bdr0 bGry9 fixed">
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Anfiteatro
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                33 - 37
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€58.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Palcos Club
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                4 - 8
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€68.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Anfiteatro
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                31 - 37
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€59.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Palcos Club
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2 - 8
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€68.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                1. Patio de butacas
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                4
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                32
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                1
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€60.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Patio de Butacas
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                4
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€113.77</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Patio butacas
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                11
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                3 - 4
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€118.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Patio butacas
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                11
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                1 - 2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€118.00</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Club
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                C1
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€79.11</span>
+        </td>
+    </tr>
+    <tr class="">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                Club
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                c5
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                23 - 25
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                2
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">€84.00</span>
+        </td>
+    </tr>
+    </table>
+    <script class="template" data-id="default" type="text/x-jquery-tmpl">
+    <tr class="{{if IsOwned}}owned{{else}}{{/if}}{{if IsCurrentListing}} current{{else}}{{/if}}">
+        <td>&nbsp;</td>
+        <td class="txtl">
+            <div class="t xs uus pls">
+                ${Section}
+            </div>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                ${Row}
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                ${Seats}
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">
+                ${Quantity}
+            </span>
+        </td>
+        <td class="txtc w20">
+            <span class="t xs">${Price}</span>
+        </td>
+    </tr>
+
+    </script>
+</div>
+
+<div class="footer">
+    <div class="ptl pbs">
+        <table>
+            <tr>
+                <td class="current bdr" style="width: 15px"></td>
+                <td class="plxs prs t xs">Ventas de los listados seleccionados</td>
+                <td class="owned bdr" style="width: 15px"></td>
+                <td class="plxs t xs">Ventas de otros listados míos</td>
+            </tr>
+        </table>
+        <div class="ptm cGry3">
+            Estas son las últimas diez ventas en el sitio web y la aplicación
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+</div>
+
+	
+    </div>
+    
+    
+<script type="text/javascript">
+                                                
+
+                                                    var marketGridData = [{"CanEdit":false,"Id":null,"ListingID":6859361682,"IsOwned":false,"WebsitePriceVal":45.00,"WebsitePrice":"€45.00","ProceedsVal":null,"Proceeds":"","Quantity":1,"Row":"c9","Section":"Asiento Reservado","TicketClass":"Sin especificar","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6863066905,"IsOwned":false,"WebsitePriceVal":45.00,"WebsitePrice":"€45.00","ProceedsVal":null,"Proceeds":"","Quantity":1,"Row":"c6","Section":"Club","TicketClass":"Club","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6903869064,"IsOwned":false,"WebsitePriceVal":69.00,"WebsitePrice":"€69.00","ProceedsVal":null,"Proceeds":"","Quantity":1,"Row":"C5","Section":"Club","TicketClass":"Club","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6858345529,"IsOwned":false,"WebsitePriceVal":85.40,"WebsitePrice":"€85.40","ProceedsVal":null,"Proceeds":"","Quantity":4,"Row":"4","Section":"Patio De Butacas","TicketClass":"Patio de Butacas","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6963649993,"IsOwned":false,"WebsitePriceVal":85.45,"WebsitePrice":"€85.45","ProceedsVal":null,"Proceeds":"","Quantity":2,"Row":"6","Section":"Patio De Butacas","TicketClass":"Patio de Butacas","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6858537833,"IsOwned":false,"WebsitePriceVal":118.98,"WebsitePrice":"€118.98","ProceedsVal":null,"Proceeds":"","Quantity":2,"Row":"2","Section":"Patio De Butacas","TicketClass":"Patio de Butacas","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6983367903,"IsOwned":false,"WebsitePriceVal":150.00,"WebsitePrice":"€150.00","ProceedsVal":null,"Proceeds":"","Quantity":2,"Row":"c8","Section":"Club","TicketClass":"Club","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false},{"CanEdit":false,"Id":null,"ListingID":6847657455,"IsOwned":false,"WebsitePriceVal":422.50,"WebsitePrice":"€422.50","ProceedsVal":null,"Proceeds":"","Quantity":4,"Row":null,"Section":"Asiento Reservado","TicketClass":"Sin especificar","Notes":[],"IsCurrentListing":false,"WebsitePriceInSelectedCurrency":null,"OriginalCurrencyCode":"EUR","OriginalCurrencyCodeIsDifferentAndIsOwned":false}];
+                                                    new viagogo.InventoryManager.MarketDataUi_V3("152758472", marketGridData);
+
+                                                    $.modal.innerScrollBehaviour(null, null, null, 150, true);
+                                                
+                                            
+             
+                 $(document).ready(function() {
+                     window.setContent("1077142", "Te dispones a bajar el precio en más de un 30%. ¿Estás seguro/a de hacerlo?");
+                 });
+             
+         </script></div>
